@@ -59,9 +59,7 @@ namespace Infrastructure.Data
         {
             return new List<CatalogBrand>()
             {
-                new CatalogBrand() { Brand = "Nike"},
-				new CatalogBrand() { Brand = "Adidas" },
-                new CatalogBrand() { Brand = "Puma" }
+                new CatalogBrand() { Brand = "AGH"}
             };
         }
 
@@ -69,8 +67,9 @@ namespace Infrastructure.Data
         {
             return new List<CatalogType>()
             {
-                new CatalogType() { Type = "Mug"},
-                new CatalogType() { Type = "T-Shirt" }
+				new CatalogType() { Type = "Sweatshirt"},
+                new CatalogType() { Type = "T-Shirt" },
+				new CatalogType() { Type = "Mug" }
             };
         }
 
@@ -78,18 +77,13 @@ namespace Infrastructure.Data
         {
             return new List<CatalogItem>()
             {
-				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=2, Description = "Nike Bot Black Sweatshirt", Name = "Nike Bot Black Sweatshirt", Price = 19.5M, PictureUri = "http://catalogbaseurltobereplaced/images/products/1.png" },
-				new CatalogItem() { CatalogTypeId=1,CatalogBrandId=2, Description = "Adidas Black & White Mug", Name = "Adidas Black & White Mug", Price= 8.50M, PictureUri = "http://catalogbaseurltobereplaced/images/products/2.png" },
-				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=5, Description = "Puma White T-Shirt", Name = "Puma White T-Shirt", Price = 12, PictureUri = "http://catalogbaseurltobereplaced/images/products/3.png" },
-				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=2, Description = "Nike Foundation Sweatshirt", Name = "Nike Foundation Sweatshirt", Price = 12, PictureUri = "http://catalogbaseurltobereplaced/images/products/4.png" },
-				new CatalogItem() { CatalogTypeId=3,CatalogBrandId=5, Description = "Adidas Red Sheet", Name = "Adidas Red Sheet", Price = 8.5M, PictureUri = "http://catalogbaseurltobereplaced/images/products/5.png" },
-				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=2, Description = "Puma Blue Sweatshirt", Name = "Puma Blue Sweatshirt", Price = 12, PictureUri = "http://catalogbaseurltobereplaced/images/products/6.png" },
-				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=5, Description = "Nike Red T-Shirt", Name = "Nike Red T-Shirt", Price = 12, PictureUri = "http://catalogbaseurltobereplaced/images/products/7.png"  },
-				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=5, Description = "Adidas Purple Sweatshirt", Name = "Adidas Purple Sweatshirt", Price = 8.5M, PictureUri = "http://catalogbaseurltobereplaced/images/products/8.png" },
-				new CatalogItem() { CatalogTypeId=1,CatalogBrandId=5, Description = "Puma White Mug", Name = "Puma White Mug", Price = 12, PictureUri = "http://catalogbaseurltobereplaced/images/products/9.png" },
-				new CatalogItem() { CatalogTypeId=3,CatalogBrandId=2, Description = "Nike Foundation Sheet", Name = "Nike Foundation Sheet", Price = 12, PictureUri = "http://catalogbaseurltobereplaced/images/products/10.png" },
-				new CatalogItem() { CatalogTypeId=3,CatalogBrandId=2, Description = "Adidas Sheet", Name = "Adidas Sheet", Price = 8.5M, PictureUri = "http://catalogbaseurltobereplaced/images/products/11.png" },
-				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=5, Description = "Puma White TShirt", Name = "Puma White TShirt", Price = 12, PictureUri = "http://catalogbaseurltobereplaced/images/products/12.png" }
+				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=2, Description = "AGH Black Sweatshirt", Name = "AGH Black Sweatshirt", Price = 19.5M, PictureUri = "http://catalogbaseurltobereplaced/images/products/1.jpeg" },
+				new CatalogItem() { CatalogTypeId=1,CatalogBrandId=2, Description = "AGH Grey Sweatshirt", Name = "AGH Grey Sweatshirt", Price= 18.50M, PictureUri = "http://catalogbaseurltobereplaced/images/products/2.jpeg" },
+				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=5, Description = "AGH Black T-Shirt", Name = "AGH Black T-Shirt", Price = 12, PictureUri = "http://catalogbaseurltobereplaced/images/products/3.jpeg" },
+				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=2, Description = "AGH White T-Shirt", Name = "AGH White T-Shirt", Price = 12, PictureUri = "http://catalogbaseurltobereplaced/images/products/4.jpeg" },
+				new CatalogItem() { CatalogTypeId=3,CatalogBrandId=5, Description = "AGH Steel Mug", Name = "AGH Steel Mug", Price = 8.5M, PictureUri = "http://catalogbaseurltobereplaced/images/products/5.jpeg" },
+				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=2, Description = "AGH Ceramic Mug", Name = "AGH Ceramic Mug", Price = 10, PictureUri = "http://catalogbaseurltobereplaced/images/products/6.jpeg" },
+				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=5, Description = "AGH Hot Mug", Name = "AGH Hot Mug", Price = 13, PictureUri = "http://catalogbaseurltobereplaced/images/products/7.jpeg"  }
             };
         }
     }
