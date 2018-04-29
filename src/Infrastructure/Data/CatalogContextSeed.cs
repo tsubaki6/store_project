@@ -77,13 +77,13 @@ namespace Infrastructure.Data
         {
             return new List<CatalogItem>()
             {
-				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=2, Description = "AGH Black Sweatshirt", Name = "AGH Black Sweatshirt", Price = 19.5M, PictureUri = "http://catalogbaseurltobereplaced/images/products/1.jpeg" },
-				new CatalogItem() { CatalogTypeId=1,CatalogBrandId=2, Description = "AGH Grey Sweatshirt", Name = "AGH Grey Sweatshirt", Price= 18.50M, PictureUri = "http://catalogbaseurltobereplaced/images/products/2.jpeg" },
-				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=5, Description = "AGH Black T-Shirt", Name = "AGH Black T-Shirt", Price = 12, PictureUri = "http://catalogbaseurltobereplaced/images/products/3.jpeg" },
-				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=2, Description = "AGH White T-Shirt", Name = "AGH White T-Shirt", Price = 12, PictureUri = "http://catalogbaseurltobereplaced/images/products/4.jpeg" },
-				new CatalogItem() { CatalogTypeId=3,CatalogBrandId=5, Description = "AGH Steel Mug", Name = "AGH Steel Mug", Price = 8.5M, PictureUri = "http://catalogbaseurltobereplaced/images/products/5.jpeg" },
-				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=2, Description = "AGH Ceramic Mug", Name = "AGH Ceramic Mug", Price = 10, PictureUri = "http://catalogbaseurltobereplaced/images/products/6.jpeg" },
-				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=5, Description = "AGH Hot Mug", Name = "AGH Hot Mug", Price = 13, PictureUri = "http://catalogbaseurltobereplaced/images/products/7.jpeg"  }
+				new CatalogItem() { CatalogTypeId=1,CatalogBrandId=1, Description = "AGH Black Sweatshirt", Name = "AGH Black Sweatshirt", Price = 19.5M, PictureUri = "http://catalogbaseurltobereplaced/images/products/1.jpeg" },
+				new CatalogItem() { CatalogTypeId=1,CatalogBrandId=1, Description = "AGH Grey Sweatshirt", Name = "AGH Grey Sweatshirt", Price= 18.50M, PictureUri = "http://catalogbaseurltobereplaced/images/products/2.jpeg" },
+				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=1, Description = "AGH Black T-Shirt", Name = "AGH Black T-Shirt", Price = 12, PictureUri = "http://catalogbaseurltobereplaced/images/products/3.jpeg" },
+				new CatalogItem() { CatalogTypeId=2,CatalogBrandId=1, Description = "AGH White T-Shirt", Name = "AGH White T-Shirt", Price = 12, PictureUri = "http://catalogbaseurltobereplaced/images/products/4.jpeg" },
+				new CatalogItem() { CatalogTypeId=3,CatalogBrandId=1, Description = "AGH Steel Mug", Name = "AGH Steel Mug", Price = 8.5M, PictureUri = "http://catalogbaseurltobereplaced/images/products/5.jpeg" },
+				new CatalogItem() { CatalogTypeId=3,CatalogBrandId=1, Description = "AGH Ceramic Mug", Name = "AGH Ceramic Mug", Price = 10, PictureUri = "http://catalogbaseurltobereplaced/images/products/6.jpeg" },
+				new CatalogItem() { CatalogTypeId=3,CatalogBrandId=1, Description = "AGH Hot Mug", Name = "AGH Hot Mug", Price = 13, PictureUri = "http://catalogbaseurltobereplaced/images/products/7.jpeg"  }
             };
         }
     }
